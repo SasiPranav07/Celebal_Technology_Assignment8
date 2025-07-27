@@ -13,6 +13,8 @@ This project leverages AI models, including Groq API, SentenceTransformer, and F
 🎯 Semantic Search: Retrieves relevant document sections based on queries.
 📊 Visualization: Generates pie charts for risk distribution.
 📩 Download & Email Reports: Export summaries and risk assessments.
+
+
 🛠️ Tech Stack
 Python
 Streamlit
