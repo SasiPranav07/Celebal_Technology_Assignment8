@@ -1,24 +1,59 @@
-# Celebal_Technology_Assignment8
+# 📚 Celebal_Technology_Assignment8  
+## Advanced AI-Driven Legal Document Summarization and Risk Assessment
 
-Advanced AI-Driven Legal Document Summarization and Risk Assessment
-A cutting-edge Streamlit-powered AI tool for legal document analysis, risk assessment, and summarization.
+A cutting-edge Streamlit-powered AI tool designed to analyze legal documents, identify risks, and generate structured summaries using state-of-the-art AI models.
 
-📌 Overview
-This project leverages AI models, including Groq API, SentenceTransformer, and FAISS, to process and summarize legal documents. It extracts key insights, detects risks, and provides structured summaries for legal professionals. The interactive Streamlit interface allows users to upload PDFs, assess compliance and financial risks, and download summarized reports.
+---
 
-🚀 Features
-📄 PDF Extraction: Extracts text from uploaded legal documents.
-🧠 AI-Powered Summarization: Uses Groq API to generate structured summaries.
-🔍 Risk Assessment: Identifies compliance, financial, and operational risks.
-🎯 Semantic Search: Retrieves relevant document sections based on queries.
-📊 Visualization: Generates pie charts for risk distribution.
-📩 Download & Email Reports: Export summaries and risk assessments.
+## 📌 Overview
 
+This project uses advanced AI techniques including **Groq API**, **SentenceTransformer**, and **FAISS** to extract insights from legal PDFs. The application identifies potential compliance, financial, and operational risks and provides structured, downloadable summaries to support legal professionals.
 
-🛠️ Tech Stack
-Python
-Streamlit
-Groq API
-SentenceTransformer (all-MiniLM-L6-v2)
-FAISS (Facebook AI Similarity Search)
-PyPDF2
+The user-friendly **Streamlit** interface allows easy document uploads, real-time risk analysis, and semantic search.
+
+---
+
+## 🚀 Features
+
+- 📄 **PDF Extraction**  
+  Extracts and processes text from uploaded legal documents using PyPDF2.
+
+- 🧠 **AI-Powered Summarization**  
+  Uses Groq API to generate coherent and structured summaries of lengthy legal texts.
+
+- 🔍 **Risk Assessment**  
+  Identifies and classifies risks into compliance, financial, and operational categories.
+
+- 🎯 **Semantic Search**  
+  Retrieves relevant sections from documents using SentenceTransformer embeddings and FAISS indexing.
+
+- 📊 **Visualization**  
+  Displays pie charts representing the distribution of detected risks.
+
+- 📩 **Download & Email Reports**  
+  Allows users to download the summary and optionally email the assessment report.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Python**
+- **Streamlit** – for the web interface
+- **Groq API** – for AI-driven summarization
+- **SentenceTransformer** (`all-MiniLM-L6-v2`) – for text embeddings
+- **FAISS** – for fast semantic search
+- **PyPDF2** – for PDF parsing and text extraction
+- **Matplotlib / Plotly** – for risk visualizations
+
+---
+
+## 📁 Project Structure
+📁 celebal_assignment8/
+├── app.py # Main Streamlit application
+├── summarizer.py # Summarization logic using Groq API
+├── risk_assessor.py # Risk extraction and classification logic
+├── utils.py # Helper functions (e.g., PDF parsing, embedding, etc.)
+├── requirements.txt # Python dependencies
+├── README.md # Project documentation
+└── 📁 data/
+└── sample_doc.pdf # Example PDF for testing
